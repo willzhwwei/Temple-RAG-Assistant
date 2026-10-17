@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local data
+student_data/
+vector_db/
+scraped_data/
+
+# Test outputs
+tests/results/
+
+# IDE
+.vscode/
+.idea/
